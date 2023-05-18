@@ -1,9 +1,5 @@
-body{
-    
-}
-
-h1{
-    text-align: center;
+.tituloPrincipal{
+    padding-left: 30px;
 }
 #banner{
     width: 100%;
@@ -11,6 +7,10 @@ h1{
 }
 .descripcion{
     background: #ccc;
+    padding: 20px;
+}
+.tituloCentral{
+    text-align: center;
 }
 p{
     text-align: center;
@@ -24,10 +24,19 @@ em strong{
 }
 .Diferenciales{
     background: white;
+    padding: 30px;
 }
-h2{
-    text-align: center;
-}
+
 .itms{
     font-style: italic;
+}
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+.imagenDife{
+width: 50%;
 }
